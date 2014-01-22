@@ -24,15 +24,14 @@ function initializePage() {
 
 function submitClick(e){
 	 
-
-
+	
 	var project_val=$('#project').val();
-	console.log("here");
+	//console.log("here");
 	$(project_val).animate({
 		width: $('#width').val()
 	});
 
-	var descr= $('#description').val;
+	var descr= $('#description').val();
 	$(project_val+ " .project-description").text(descr);
 	
 };
